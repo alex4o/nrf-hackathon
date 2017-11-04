@@ -1,0 +1,25 @@
+{
+  "name": "nrf-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node index.js",
+    "server": "node server.js",
+    "db": "mongod --dbpath ./db"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express.js": "^1.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.33",
+    "node-fetch": "^1.7.3",
+    "node-libcurl": "^1.2.0",
+    "request": "^2.83.0",
+    "sleep-promise": "^2.0.0"
+  }
+}
